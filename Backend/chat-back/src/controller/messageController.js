@@ -167,8 +167,7 @@ export const getMessagesByReceiver = async (req, res) => {
     }
   }
 };
- socket.emit("join_room", userId);
-    console.log(`🟢 Joined socket room for user ${userId}`);
+ 
 
 
 
